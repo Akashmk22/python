@@ -14,6 +14,6 @@ def zip_folder(folder_path, output_path):
                 zipf.write(os.path.join(root, file))
 
 if __name__ == '__main__':
-    folder_path = 'output'
+    folder_path = 'output'.....
     output_path = 'C:/Users/Akash M K/Desktop/output22' # Change this to the directory where you want to save the zip file
     zip_folder(folder_path, output_path)
