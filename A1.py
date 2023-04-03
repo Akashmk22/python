@@ -11,8 +11,7 @@ def zip_folder(folder_path, output_path):
         # Walk through the directory and add all files and directories to the zip file
         for root, dirs, files in os.walk(folder_path):
             for file in files:
-                zipf.write(os.path.join(root, file)
-                
+                zipf.write(os.path.join(root, file))
 
 if __name__ == '__main__':
     folder_path = 'output'
