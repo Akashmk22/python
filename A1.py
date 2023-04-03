@@ -14,6 +14,9 @@ def zip_folder(folder_path, output_path):
                 zipf.write(os.path.join(root, file))
                 
                 print("helo")
+                ''''''
+                ''''
+                
 
 if __name__ == '__main__':
     folder_path = 'output'
