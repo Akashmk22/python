@@ -4,7 +4,6 @@ import os
 def zip_folder(folder_path, output_path):
     # Get the directory name and the name for the output zip file
     directory_name = os.path.basename(folder_path)
-    
     zip_file_name = directory_name + '.zip'
 
     # Create a ZipFile object with the output path and the zip file name
